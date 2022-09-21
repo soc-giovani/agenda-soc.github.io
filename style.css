@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+:root{
+    --primary-color: #015694;
+    --secundary-color: #4AA84F;
+    --skyblue-color: #2AB5DF;
+    --wet-asphalt-color: #40516F;
+    --light-color: #F0F6FD;
+    --white-smoke-color: #F1F2F7;
+}
+h2{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 32px;
+    margin-top: 32px;
+}
+a{
+    color: var(--primary-color) !important;
+}
+img{
+    width: fit-content;
+}
+.nav{
+    flex-wrap: initial !important;
+}
+
+.nav-pills .nav-link.active{
+    color: #4aa84f !important;
+    background-color: white !important;
+    text-decoration: underline;
+}
+.nav-link{
+    color: var(--wet-asphalt-color) !important;
+}
+
+#horarios{
+    width: 550px;
+    align-items: center;
+    text-align: center;
+}
+.banner-container{
+    margin-bottom: 32px;
+}
+.icono-ubicacion{
+    width: 25px;
+    margin-left: 18px;
+}
+.accordion-button:not(.collapsed){
+    color: var(--wet-asphalt-color) !important;
+    background-color: white !important;
+}
+/*--.accordion-button::after{
+    background-image: url("https://icons.getbootstrap.com/icons/dash/");
+    
+}--*/
+@media (max-width: 430px){
+    #horarios{
+        width: 380px;
+        align-items: center;
+        text-align: center;
+    }
+};
+@media (max-width: 768px) {
+    #horarios{
+        width: 380px;
+        align-items: center;
+        text-align: center;
+    }    
+};
