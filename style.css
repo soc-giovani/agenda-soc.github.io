@@ -47,7 +47,7 @@ img{
 }
 .icono-ubicacion{
     width: 25px;
-    margin-left: 18px;
+    margin-right: 18px;
 }
 .accordion-button:not(.collapsed){
     color: var(--wet-asphalt-color) !important;
