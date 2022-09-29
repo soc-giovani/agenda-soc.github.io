@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(background-agenda.png);
+    background-image: url(backgorund-agenda.png) !important;
 }
 :root{
     --primary-color: #015694;
