@@ -50,6 +50,9 @@ img{
     width: 25px;
     margin-right: 18px;
 }
+.icono-logo{
+    margin-right: 18px;
+}
 .accordion-button:not(.collapsed){
     color: var(--wet-asphalt-color) !important;
     background-color: white !important;
