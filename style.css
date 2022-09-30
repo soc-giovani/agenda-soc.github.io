@@ -57,6 +57,19 @@ img{
     color: var(--wet-asphalt-color) !important;
     background-color: white !important;
 }
+.btn-agenda {
+    --bs-btn-color: var(--secundary-color) !important;
+    --bs-btn-border-color: var(--secundary-color) !important;
+    --bs-btn-hover-bg: var(--secundary-color) !important;
+    --bs-btn-hover-border-color: var(--secundary-color) !important;
+    --bs-btn-active-bg: var(--secundary-color) !important;
+    --bs-btn-active-border-color: var(--secundary-color) !important;
+    --bs-btn-disabled-color: var(--secundary-color) !important;
+    --bs-btn-disabled-border-color: var(--secundary-color) !important;
+}
+.mapa{
+    width: 100%;
+}
 /*--.accordion-button::after{
     background-image: url("https://icons.getbootstrap.com/icons/dash/");
     
