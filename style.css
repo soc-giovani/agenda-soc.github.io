@@ -69,6 +69,7 @@ img{
 }
 .mapa{
     width: 100%;
+    margin-top: 32px;
 }
 /*--.accordion-button::after{
     background-image: url("https://icons.getbootstrap.com/icons/dash/");
