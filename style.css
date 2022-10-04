@@ -37,6 +37,9 @@ img{
 .nav-link{
     color: var(--wet-asphalt-color) !important;
 }
+.nav-link.active{
+    color: var(--secundary-color) !important;
+}
 
 #horarios{
     width: 550px;
@@ -67,6 +70,9 @@ img{
     --bs-btn-disabled-color: var(--secundary-color) !important;
     --bs-btn-disabled-border-color: var(--secundary-color) !important;
 }
+.accordion-body{
+    text-align: start;
+}
 .mapa{
     width: 100%;
     margin-top: 32px;
@@ -75,12 +81,27 @@ img{
     font-size: 18px;
     color: var(--wet-asphalt-color);
     display: block;
-    margin-bottom: 16px;
 }
 .tip-texto{
     font-size: 16px;
     color: var(--wet-asphalt-color);
+    text-align: start;
 }
+.agenda-tips-style{
+    text-align: start;
+    margin: 0px;
+}
+.nav-agenda{
+    display: inline-flex !important;
+}
+.nav-tabs{
+    --bs-nav-tabs-border-width: 0px !important;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
 /*--.accordion-button::after{
     background-image: url("https://icons.getbootstrap.com/icons/dash/");
     
